@@ -19,7 +19,7 @@ function App() {
   return (
     <div>
       {/* <div className='snap-y snap-mandatory h-screen w-screen overflow-visible overflow-x-hidden'> */}
-      <BrowserRouter basename="/ranishkunwar">
+      <BrowserRouter basename="/">
         <Routes>
           <Route path="/" element={<>
             <div className='snap-y snap-mandatory h-screen w-screen overflow-visible overflow-x-hidden'>
