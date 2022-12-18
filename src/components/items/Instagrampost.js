@@ -94,7 +94,7 @@ const Instagrampost = () => {
                     <div className='flex my-auto'>
                         <BsPersonCircle size={30} />
                         <div className='ml-1 my-auto text-center'>
-                            Shrinkhala_K20
+                            Shrinkhala_Khatiwada
                         </div>
                         <div className='pl-2 text-sm font-bold text-[#0084ff] my-auto'>
                             Follow
