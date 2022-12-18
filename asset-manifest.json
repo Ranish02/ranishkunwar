@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ranishkunwar/static/css/main.ae57e56f.css",
-    "main.js": "/ranishkunwar/static/js/main.fdd7014d.js",
+    "main.css": "/ranishkunwar/static/css/main.1a9e26df.css",
+    "main.js": "/ranishkunwar/static/js/main.d897cb05.js",
     "static/media/img.png": "/ranishkunwar/static/media/img.040a34297072bf43d0be.png",
     "index.html": "/ranishkunwar/index.html",
-    "main.ae57e56f.css.map": "/ranishkunwar/static/css/main.ae57e56f.css.map",
-    "main.fdd7014d.js.map": "/ranishkunwar/static/js/main.fdd7014d.js.map"
+    "main.1a9e26df.css.map": "/ranishkunwar/static/css/main.1a9e26df.css.map",
+    "main.d897cb05.js.map": "/ranishkunwar/static/js/main.d897cb05.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae57e56f.css",
-    "static/js/main.fdd7014d.js"
+    "static/css/main.1a9e26df.css",
+    "static/js/main.d897cb05.js"
   ]
 }
