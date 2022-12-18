@@ -3,7 +3,7 @@ import { skills } from '../data/skillsdata'
 const SkillsGrid = () => {
     return (
         <div className='rounded-lg p-4 lg:p-6 min-h-[280px] text-black '>
-            <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-y-scroll md:overflow-hidden max-h-[280px]'>
+            <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-y-scroll md:overflow-x-hidden max-h-[280px]'>
                 {skills.map((slide, index) => {
                     const { description, image, name, remarks } = slide;
                     return (

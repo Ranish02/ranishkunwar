@@ -23,8 +23,8 @@ const Info = () => {
                 <div className='w-screen h-screen text-white md:pt-[50px] px-4'>
                     <div className='grid grid-cols-1 md:grid-cols-2'>
                         <div className='flex justify-center text-center px-2 items-center' >
-                            <div>
-                                <div className='text-4xl md:text-6xl xl:text-8xl headings font-semibold mt-4'>
+                            <div className='xl:ml-16'>
+                                <div className='text-4xl md:text-6xl xl:text-8xl  headings font-semibold pt-8'>
                                     FRAMEWORKS
                                 </div>
                                 <div className='p-4 text-sm md:text-base'>

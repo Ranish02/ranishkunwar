@@ -29,27 +29,18 @@ export const skills = [
     name: 'Node JS',
     image: 'https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png',
     description: '',
-    remarks: ''
+    remarks: 'I love making apis with it'
   },
   {
     name: 'Unreal Engine',
     image: 'https://download.logo.wine/logo/Unreal_Engine/Unreal_Engine-Logo.wine.png',
     description: '',
-    remarks: ''
+    remarks: '3d games with blueprint'
   },
   {
     name: 'Unity',
     image: 'https://upload.wikimedia.org/wikipedia/commons/8/8a/Official_unity_logo.png',
     description: '',
-    remarks: ''
+    remarks: 'First engine leaned'
   },
-  {
-    name: 'Node JS',
-    image: 'https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png',
-    description: '',
-    remarks: ''
-  },
-
-
-
 ];

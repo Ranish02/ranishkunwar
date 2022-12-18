@@ -24,11 +24,11 @@ const Nav = () => {
                     </>}
                 <div className='hidden md:flex justify-end  items-center my-2'>
                     <ul className='flex'>
-                        <li className='px-2 md:px-4 font-semibold'><NavLink to="/home">HOME</NavLink></li>
+                        <li className='px-2 md:px-4 font-semibold'><NavLink to="/">HOME</NavLink></li>
                         <li className='px-2 md:px-4 font-semibold'><NavLink to="/interest">INTEREST</NavLink></li>
+                        <li className='px-2 md:px-4 font-semibold'><NavLink to="/potatogram">POTATOGRAM</NavLink></li>
                         <li className='px-2 md:px-4 font-semibold'><NavLink to="/skills">SKILLS</NavLink></li>
-                        <li className='px-2 md:px-4 font-semibold'><NavLink to="/about">ABOUT</NavLink></li>
-
+                        <li className='px-2 md:px-4 font-semibold'><NavLink to="/about">ABOUT ME</NavLink></li>
                     </ul>
                 </div>
 

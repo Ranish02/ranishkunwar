@@ -56,6 +56,10 @@ body {
   background: linear-gradient(to right, #2F0743, #41295a);
 }
 
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
 .cropped {
   width: 300px;
   height: 300px;

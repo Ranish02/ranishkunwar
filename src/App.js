@@ -6,7 +6,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Info from "./components/Info";
 import Languages from "./components/Languages";
 import PotatoGram from "./components/PotatoGram";
-import Testfile from "./components/Testfile";
+import Testfile from "./test/Testfile";
+import Tobeadded from "./components/Tobeadded";
+import SideSkills from "./components/SideSkills";
 
 
 function App() {
@@ -26,15 +28,36 @@ function App() {
               <Info />
               <Languages />
               <PotatoGram />
-              <div className="mt-0">
-                <Languages />
-              </div>
+              <SideSkills />
+
 
             </div>
 
           </>} />
-          <Route path="/path" element={<>
-            <Board />
+          <Route path="/skills" element={<>
+            <div className='snap-y snap-mandatory h-screen w-screen overflow-visible overflow-x-hidden'>
+              <Nav />
+              <Info />
+              <Languages />
+            </div>
+          </>} />
+          <Route path="/interest" element={<>
+            <div className='snap-y snap-mandatory h-screen w-screen overflow-visible overflow-x-hidden'>
+              <Nav />
+              <Tobeadded />
+            </div>
+          </>} />
+          <Route path="/potatogram" element={<>
+            <div className='snap-y snap-mandatory h-screen w-screen overflow-visible overflow-x-hidden'>
+              <Nav />
+              <PotatoGram />
+            </div>
+          </>} />
+          <Route path="/about" element={<>
+            <div className='snap-y snap-mandatory h-screen w-screen overflow-visible overflow-x-hidden'>
+              <Nav />
+              <Tobeadded />
+            </div>
           </>} />
           <Route path="/test" element={<>
             <Testfile />

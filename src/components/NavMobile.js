@@ -1,6 +1,6 @@
 import React from 'react';
 import { IoClose } from 'react-icons/io5';
-
+import { NavLink } from 'react-router-dom';
 const NavMobile = ({ setNavMobile }) => {
     return (
         <div className='lg:hidden bg-[#251f3f] w-full h-full glass'>
@@ -11,12 +11,17 @@ const NavMobile = ({ setNavMobile }) => {
                 </button>
 
             </div>
-            <ul className='flex flex-col items-center justify-center space-y-8 h-full text-white'>
-                <li className='text-lg'><a href='/home'>Home</a></li>
-                <li className='text-lg'><a href='/test'>Company</a></li>
-                <li className='text-lg'><a href='/features'>Features</a></li>
-                <li className='btn'><a href='/ok'>Sign up</a></li>
-            </ul>
+            <div className='mt-6'>
+                <ul className='flex flex-col justify-center space-y-4 h-full text-white'>
+
+                    <li className='text-lg border-y-2 w-full border-[#aaaaaa] py-1 my-0 pl-6'><NavLink to="/">Home</NavLink></li>
+                    <li className='text-lg border-b-2 w-full border-[#aaaaaa] py-1 my-0 pl-6'><NavLink to="/interest">Interest</NavLink></li>
+                    <li className='text-lg border-b-2 w-full border-[#aaaaaa] py-1 my-0 pl-6'><NavLink to="/potatogram">Potatogram</NavLink></li>
+                    <li className='text-lg border-b-2 w-full border-[#aaaaaa] py-1 my-0 pl-6'><NavLink to="/skills">Skills</NavLink></li>
+                    <li className='text-lg border-b-2 w-full border-[#aaaaaa] py-1 my-0 pl-6'><NavLink to="/about">About me</NavLink></li>
+                </ul>
+            </div>
+
         </div>
     );
 }

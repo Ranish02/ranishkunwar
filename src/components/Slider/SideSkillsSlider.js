@@ -6,9 +6,9 @@ import { Navigation, Thumbs } from 'swiper';
 //import required modules
 import { Pagination } from 'swiper';
 //import data
-import { languagesData } from '../data/languagesdata'
+import { sideskillsdata } from '../data/sideskillsdata'
 
-const LanguagesSlider = () => {
+const SideSkillsSlider = () => {
     return (
         <>
             <Swiper
@@ -38,18 +38,18 @@ const LanguagesSlider = () => {
                         // }
                     }
                 }}>
-                {languagesData.map((slide, index) => {
+                {sideskillsdata.map((slide, index) => {
                     const { remarks, image, name, email } = slide;
                     //rounded-lg p-4 w-[100px] lg:p-6 min-h-[280px] bg-gradient-to-r from-[#434242] via-[#D09CFA] to-[#D09CFA] '
                     return (
                         <SwiperSlide
-                            className='rounded-lg p-4 w-[100px] lg:p-6 min-h-[280px] bg-[#14a9ff] text-white poppins'
+                            className='rounded-lg p-4 w-[100px] lg:p-6 min-h-[280px] bg-[#150050] text-white'
                             key={index}
                         >
                             <div className='flex justify-center'>
                                 <div>
                                     <div>
-                                        <img className='mb-3 md:mb-0  h-[100px]' src={image} alt='' />
+                                        <img className='mb-3 md:mb-0 mt-4 h-[100px]' src={image} alt='' />
                                     </div>
                                     <div className='text-center font-semibold mt-4'>
                                         {name}
@@ -71,4 +71,4 @@ const LanguagesSlider = () => {
     );
 }
 
-export default LanguagesSlider;
+export default SideSkillsSlider;
