@@ -9,6 +9,7 @@ import PotatoGram from "./components/PotatoGram";
 import Testfile from "./test/Testfile";
 import Tobeadded from "./components/Tobeadded";
 import SideSkills from "./components/SideSkills";
+import About from "./components/About";
 
 
 function App() {
@@ -56,7 +57,7 @@ function App() {
           <Route path="/about" element={<>
             <div className='snap-y snap-mandatory h-screen w-screen overflow-visible overflow-x-hidden'>
               <Nav />
-              <Tobeadded />
+              <About />
             </div>
           </>} />
           <Route path="/test" element={<>

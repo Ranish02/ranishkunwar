@@ -18,7 +18,7 @@ const NavMobile = ({ setNavMobile }) => {
                     <li className='text-lg border-b-2 w-full border-[#aaaaaa] py-1 my-0 pl-6'><NavLink to="/interest">Interest</NavLink></li>
                     <li className='text-lg border-b-2 w-full border-[#aaaaaa] py-1 my-0 pl-6'><NavLink to="/potatogram">Potatogram</NavLink></li>
                     <li className='text-lg border-b-2 w-full border-[#aaaaaa] py-1 my-0 pl-6'><NavLink to="/skills">Skills</NavLink></li>
-                    <li className='text-lg border-b-2 w-full border-[#aaaaaa] py-1 my-0 pl-6'><NavLink to="/about">About me</NavLink></li>
+                    <li className='text-lg border-b-2 w-full border-[#aaaaaa] py-1 my-0 pl-6'><NavLink to="/about">About</NavLink></li>
                 </ul>
             </div>
 

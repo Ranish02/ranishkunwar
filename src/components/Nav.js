@@ -28,7 +28,7 @@ const Nav = () => {
                         <li className='px-2 md:px-4 font-semibold'><NavLink to="/interest">INTEREST</NavLink></li>
                         <li className='px-2 md:px-4 font-semibold'><NavLink to="/potatogram">POTATOGRAM</NavLink></li>
                         <li className='px-2 md:px-4 font-semibold'><NavLink to="/skills">SKILLS</NavLink></li>
-                        <li className='px-2 md:px-4 font-semibold'><NavLink to="/about">ABOUT ME</NavLink></li>
+                        <li className='px-2 md:px-4 font-semibold'><NavLink to="/about">ABOUT</NavLink></li>
                     </ul>
                 </div>
 
