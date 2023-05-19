@@ -1,20 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600&family=Josefin+Sans:wght@100;400&family=Montserrat&family=Poppins:wght@100;400&family=Rubik+Spray+Paint&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600&family=Josefin+Sans:wght@100;400&family=Montserrat&family=Poppins:wght@100;400&family=Rubik+Spray+Paint&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 .glass {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
   backdrop-filter: blur(10px);
   --webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
-
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background: #ff00cc;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #333399, #ff00cc);
@@ -28,14 +30,12 @@ body {
 }
 
 .gradCosmicPinkPurple {
-
   background: #ff00cc;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #333399, #ff00cc);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #333399, #ff00cc);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .gradDeepSpace {
@@ -45,19 +45,18 @@ body {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #434343, #000000);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .gradNonCosmic {
   background: #41295a;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2F0743, #41295a);
+  background: -webkit-linear-gradient(to right, #2f0743, #41295a);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2F0743, #41295a);
+  background: linear-gradient(to right, #2f0743, #41295a);
 }
 
 .poppins {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .cropped {
@@ -69,9 +68,18 @@ body {
 
 @media (max-width: 768px) {
   .cropped {
-    /* width: 200px;
-    height: 200px; */
-    scale: 80%;
+    width: 50px;
+    height: 50px;
+    scale: 50%;
+    object-fit: cover;
+    object-position: 105% 50%;
+  }
+}
+@media (max-width: 1376px) {
+  .cropped {
+    width: 200px;
+    height: 200px;
+    scale: 100%;
     object-fit: cover;
     object-position: 105% 50%;
   }
@@ -79,15 +87,15 @@ body {
 
 @media (max-width: 480px) {
   .cropped {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     object-fit: cover;
     object-position: 105% 50%;
   }
 }
 
 .headings {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .mysnap {

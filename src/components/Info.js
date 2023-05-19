@@ -17,7 +17,7 @@ const Info = () => {
   return (
     <div className="flex justify-center languages items-center snap-start">
       <div className="w-full h-screen  bg-[#A555EC] text-white pt-[50px] md:pt-0 md:pl-0">
-        <div className="w-screen h-screen text-white md:pt-[50px] px-4">
+        <div className="w-screen h-screen text-white  mt-[10px] lg:pt-[50px] px-4">
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="flex justify-center text-center px-2 items-center">
               <div className="xl:ml-16">
@@ -42,9 +42,9 @@ const Info = () => {
             </div>
           </div>
           <div className="md:pr-8">
-            <div className="scale-75 md:scale-100 mt-[-40px] sm:mt-4 border-[#F3CCFF] border-2">
+            <div className="scale-75 md:scale-100 mt-[-40px] md:mt-2 border-[#F3CCFF] border-2">
               <div>
-                <div className=" pt-1 flex justify-end ">
+                <div className=" pt-0 md:pt-1 flex justify-end ">
                   {/* <button className='px-2 py-2 mx-1 bg-[#e5c5ff]'><HiViewList size={20} /></button> */}
                   <button
                     className={
