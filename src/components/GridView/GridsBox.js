@@ -1,17 +1,17 @@
 import React from "react";
-import { languagesData } from "../data/languagesdata";
-const LanguageGrid = () => {
+
+const GridsBox = ({ cardColor, backGroundColor, textColor, data }) => {
   return (
-    <div className="rounded-lg p-4 lg:p-6 min-h-[280px] text-white">
+    <div className={`rounded-lg p-4 lg:p-6 min-h-[280px] text-${textColor}`}>
       <div
         className="grid grid-cols-2 md:grid-cols-4 w-full
             overflow-y-scroll md:overflow-x-hidden max-h-[280px]">
-        {languagesData.map((slide, index) => {
+        {data.map((slide, index) => {
           const { description, image, name, remarks } = slide;
           return (
             <>
               <div
-                className="cardbg h-[60px] md:h-[100px]  p-2 rounded-lg m-2 flex items-center text-center"
+                className={`bg-[${cardColor}] h-[60px] md:h-[100px]  p-2 rounded-lg m-2 flex items-center text-center`}
                 key={index}>
                 <div className="md:flex w-full items-center">
                   <div className="">
@@ -40,4 +40,4 @@ const LanguageGrid = () => {
   );
 };
 
-export default LanguageGrid;
+export default GridsBox;

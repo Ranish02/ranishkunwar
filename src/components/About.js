@@ -9,10 +9,13 @@ const About = () => {
         This web app will be receiving update in the coming days.
         <ul>
           <li>
-            <div className="text-lg my-2">Published on Dec 19, 2022.</div>
+            <div className="text-lg mt-2">Published on Dec 19, 2022.</div>
           </li>
           <li>
-            <div className="text-xl">Last Updated on May 19, 2023.</div>
+            <div className="text-lg  my-2">Updated on May 19, 2023.</div>
+          </li>
+          <li>
+            <div className="text-xl">Last Updated on June 19, 2023.</div>
           </li>
         </ul>
       </div>

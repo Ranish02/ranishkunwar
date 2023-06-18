@@ -6,9 +6,8 @@ import { Navigation, Thumbs } from "swiper";
 //import required modules
 import { Pagination } from "swiper";
 //import data
-import { languagesData } from "../data/languagesdata";
 
-const LanguagesSlider = () => {
+const SliderBox = ({ cardColor, backGroundColor, textColor, data }) => {
   return (
     <>
       <Swiper
@@ -32,18 +31,18 @@ const LanguagesSlider = () => {
             spaceBetween: 30,
           },
         }}>
-        {languagesData.map((slide, index) => {
-          const { remarks, image, name, email } = slide;
+        {data.map((slide, index) => {
+          const { remarks, image, name } = slide;
           //rounded-lg p-4 w-[100px] lg:p-6 min-h-[280px] bg-gradient-to-r from-[#434242] via-[#D09CFA] to-[#D09CFA] '
           return (
             <SwiperSlide
-              className="rounded-lg md:p-4 w-[100px] lg:p-6 max-h-[280px] md:max-h-[340px] cardbg  text-white poppins"
+              className={`rounded-lg md:p-4 w-[100px] my-auto py-12 h-[300px] lg:p-6 max-h-[320px] md:max-h-[440px] bg-[${cardColor}]  text-${textColor} poppins`}
               key={index}>
               <div className="flex justify-center">
                 <div>
                   <div>
                     <img
-                      className="mb-3 md:mb-0  md:h-[50px] lg:h-[100px]"
+                      className="mb-3 md:mb-0  md:h-[50px] lg:h-[100px] max-w-[150px] md:max-w-[240px]"
                       src={image}
                       alt=""
                     />
@@ -66,4 +65,4 @@ const LanguagesSlider = () => {
   );
 };
 
-export default LanguagesSlider;
+export default SliderBox;

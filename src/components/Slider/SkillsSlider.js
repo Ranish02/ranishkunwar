@@ -33,7 +33,7 @@ const SkillsSlider = () => {
           const { description, image, name, email } = slide;
           return (
             <SwiperSlide
-              className="rounded-lg md:p-4 w-[100px] lg:p-6 min-h-[280px] bg-gradient-to-r from-[#D09CFA] via-[#D09CFA] to-[#D09CFA] "
+              className="rounded-lg md:p-4 w-[100px] lg:p-6 max-h-[280px] bg-[#D09CFA] "
               key={index}>
               <div className="flex justify-center">
                 <div>
