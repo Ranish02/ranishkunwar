@@ -93,7 +93,7 @@ const ListPage = ({
                   {view === "slider" ? (
                     <>
                       <SliderBox
-                        backGroundColor={"#2d2727"}
+                        backGroundColor={backgroundColor}
                         cardColor={cardColor}
                         textColor={textColor}
                         data={data}
@@ -102,7 +102,7 @@ const ListPage = ({
                   ) : (
                     <>
                       <GridsBox
-                        backGroundColor={"#2d2727"}
+                        backGroundColor={backgroundColor}
                         cardColor={cardColor}
                         textColor={textColor}
                         data={data}

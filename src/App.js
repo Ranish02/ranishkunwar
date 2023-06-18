@@ -53,8 +53,8 @@ function App() {
                     title="LANGUAGES"
                     description=" Also, here are few languages I use."
                     imageUrl="https://cdn.discordapp.com/attachments/979623779477123122/1052896368907276328/Screenshot_20220731-021934_Gallery.jpg"
-                    backgroundColor="#FCE9F1"
-                    cardColor="#73BBC9"
+                    backgroundColor={"#FCE9F1"}
+                    cardColor="#413543"
                     headingColor="black"
                     textColor="white"
                     data={languagesData}
@@ -64,7 +64,7 @@ function App() {
                     title="SIDE SKILLS"
                     description="  Here are few of the side skills that I have gained over the past few years"
                     imageUrl="https://cdn.discordapp.com/attachments/979623779477123122/1054025801655402587/FB_IMG_1671369699209.jpg"
-                    backgroundColor="#2d2727"
+                    backgroundColor="#2D2727"
                     cardColor="#413543"
                     textColor="white"
                     data={sideskillsdata}
@@ -104,8 +104,8 @@ function App() {
                     title="SIDE SKILLS"
                     description="  Here are few of the side skills that I have gained over the past few years"
                     imageUrl="https://cdn.discordapp.com/attachments/979623779477123122/1054025801655402587/FB_IMG_1671369699209.jpg"
-                    backgroundColor="#2d2727"
-                    cardColor="#413543"
+                    backgroundColor="#2D2727"
+                    cardColor={"#413543"}
                     textColor="white"
                     data={sideskillsdata}
                   />

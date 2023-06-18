@@ -25,13 +25,13 @@ const Instagrampost = () => {
         setcounting(true);
         setTimeout(() => {
           setcounting(false);
-          sendLikes();
           //setLikeSent(0);
         }, 3000);
       }
     }
+    sendLikes();
 
-    console.log("Double tapped");
+    // console.log("Double tapped");
   });
   useEffect(() => {
     var likes;
