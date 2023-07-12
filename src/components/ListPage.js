@@ -33,9 +33,9 @@ const ListPage = ({
     }
   };
   return (
-    <div className="flex justify-center languages items-center snap-start">
+    <div className="flex justify-center mt-[50px] languages items-center snap-start">
       <div
-        className={`w-full h-screen  text-white pt-[50px] md:pl-4 bg-[${backgroundColor}] text-${textColor}`}>
+        className={`w-full h-screentext-white pt-[50px] md:pl-4 bg-[${backgroundColor}] text-${textColor}`}>
         <div className="w-screen h-screen text-white md:pt-[10px] pt-[50px] px-4">
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="flex justify-center text-center items-center">
